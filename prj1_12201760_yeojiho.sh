@@ -4,9 +4,7 @@ then
 	echo "usage: $0 file1 file2 file3"
 	exit 1
 fi
-file1=teams.csv
-file2=players.csv
-file3=matches.csv
+
 for file in teams.csv players.csv matches.csv
 do
 	case "$file" in
@@ -25,7 +23,7 @@ choiceNum=0
 printMenu(){
 	echo ""
 	echo '[MENU]'
-	echo "1. Get the data of Heung-Min Son's Current Club,Appearance,Goals,Assists in player.csv"
+	echo "1. Get the data of Heung-Min Son's Current Club,Appearance,Goals,Assists in players.csv"
 	echo '2. Get the team data to enter a league position in teams.csv'
 	echo '3. Get the Top-3 Attendance matches in matches.csv'
 	echo "4. Get the team's league position and team's top scorer in teams.csv & players.csv"
