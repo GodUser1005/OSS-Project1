@@ -76,7 +76,7 @@ function2(){
 }
 
 function3(){
-	read -p "Do you want to know Top-3 attendance data and average attendance? (y/n) : " choose
+	read -p "Do you want to know Top-3 attendance data (y/n) : " choose
 	if [ -z $choose ]
 	then
 		echo "Input Error"
